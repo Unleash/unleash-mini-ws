@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class UnleashController {
+public class HomeController {
 
     @RequestMapping("/")
-    public String greeting(@RequestParam(value="userId", required=false, defaultValue="unknown") String userId, Model model, HttpServletRequest request) {
+    public String index(@RequestParam(value="userId", required=false, defaultValue="unknown") String userId, Model model, HttpServletRequest request) {
         String sessionId = request.getSession().getId();
 
         boolean enabled = false;
