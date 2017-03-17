@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:fragment="head">
+
+        <meta charset="utf-8" />
+        <title>Unleash Demo</title>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet" href="css/cardinal.min.css" />
+        <style>
+            .bg-green {
+                background: green;
+                color: white;
+            }
+            .bg-red {
+                background: red;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div th:fragment="header">
+            <h1>Unleash Demo</h1>
+
+            <div>
+                Pages: <a href="/login">Login</a> - <a href="/">Home</a>
+                <div th:if="${isLoggedIn}">
+                    <form th:action="@{/logout}" method="post">
+                        <input type="submit" value="Sign Out"/>
+                    </form>
+                </div>
+            </div>
+
+            <p>
+                To update the toggle head to
+                <a href="http://unleash.herokuapp.com/home.html#/features/view/Demo" target="_blank">Unleash UI</a>
+            </p>
+
+            <hr />
+        </div>
+
+    </body>
+</html>
