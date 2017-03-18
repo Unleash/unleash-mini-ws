@@ -1,8 +1,8 @@
-package org.unleash;
+package no.finn.unleash.example;
 
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class MyConfiguration {
+public class UnleashConfiguration {
     //Wire up unleash here!
 }

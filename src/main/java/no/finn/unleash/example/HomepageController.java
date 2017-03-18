@@ -1,4 +1,4 @@
-package org.unleash;
+package no.finn.unleash.example;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class HomeController {
+public class HomepageController {
 
     @RequestMapping("/")
     public String index(Model model, HttpServletRequest request) {
@@ -26,7 +26,7 @@ public class HomeController {
         model.addAttribute("sessionId", sessionId);
         model.addAttribute("toggle", enabled);
         model.addAttribute("isLoggedIn", isLoggedIn);
-        return "home";
+        return "homepage";
     }
 
     private boolean isLoggedIn(Authentication auth) {
