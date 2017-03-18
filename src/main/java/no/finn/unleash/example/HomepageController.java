@@ -27,7 +27,7 @@ public class HomepageController {
 
         model.addAttribute("userId", userId);
         model.addAttribute("sessionId", sessionId);
-        model.addAttribute("toggle", enabled);
+        model.addAttribute("awesomeFeature", enabled);
         model.addAttribute("isLoggedIn", isLoggedIn);
         return "homepage";
     }

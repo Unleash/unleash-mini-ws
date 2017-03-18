@@ -8,7 +8,7 @@
             <h4>UserId: <span th:text="${userId}" /></h4>
             <h4>SessionId: <span th:text="${sessionId}" /></h4>
 
-            <div th:switch="${toggle}">
+            <div th:switch="${awesomeFeature}">
                 <p  th:case="${true}" class="box box-border tc bg-green">enabled</p>
                 <p  th:case="${false}" class="box box-border tc bg-red">disabled</p>
             </div>

@@ -13,11 +13,11 @@ Step-by-step instructions are found in the [Java client documentation](https://g
 
 ## Tasks
 
-1. [docs/task-1.md](Add the Unleash dependency to your project)
-2. [docs/task-2.md](Create and enable your own feature toggle)
-3. [docs/task-3.md](Check the toggle value in you code)
-4. [docs/task-4.md](Change toggle to GradualRolloutRandom strategy)
-5. [docs/task-5.md](Add UserWithId strategy for internal users)
-6. [docs/task-6.md](Change to GradualRolloutUserId for stickiness)
+1. [Add the Unleash dependency to your project](docs/task-1.md)
+2. [Create and enable your own feature toggle](docs/task-2.md)
+3. [Check the toggle value in you code](docs/task-3.md)
+4. [Change toggle to GradualRolloutRandom strategy](docs/task-4.md)
+5. [Add UserWithId strategy for internal users](docs/task-5.md)
+6. [Change to GradualRolloutUserId for stickiness](docs/task-6.md)
 
 7. Unit testing
