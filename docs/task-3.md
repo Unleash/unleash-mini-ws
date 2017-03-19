@@ -2,6 +2,8 @@
 
 Use your newly created toggle to enable an awesome new feature in your project.
 
+TASK:
+
 1. Add a feature toggle check to `HomepageController`, following the example given in the [online documentation](https://github.com/Unleash/unleash-client-java).
 2. Check http://localhost:8080 and verify that the box changes color from red (disabled) to green (enabled).
 

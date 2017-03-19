@@ -19,5 +19,3 @@ Step-by-step instructions are found in the [Java client documentation](https://g
 4. [Change toggle to GradualRolloutRandom strategy](docs/task-4.md)
 5. [Add UserWithId strategy for internal users](docs/task-5.md)
 6. [Change to GradualRolloutUserId for stickiness](docs/task-6.md)
-
-7. Unit testing
