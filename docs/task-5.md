@@ -6,7 +6,7 @@ Your homepage has a login form the accepts the user `user` with password `passwo
 
 TASK:
 
-1. Find your toggle in the [Unleash UI], and add the `userWithId` strategy alongside the other strategy (`gradualRolloutRandom`).
+1. Find your toggle in the [Unleash UI](http://unleash.herokuapp.com), and add the `userWithId` strategy alongside the other strategy (`gradualRolloutRandom`).
 2. Add the userId `user` to the configuration. These would usually be ID's resolved by your backend, but for now we just make it up :-)
 3. [Your homepage](http:/localhost:8080) should now always display the green box then you're logged in.
 
