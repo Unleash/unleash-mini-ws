@@ -2,9 +2,9 @@
 
 TASK:
 
-1. Install app `npm install`
-2. Add `unleash-client` via npm: `npm install unleash-client --save`.
-2. Init up the Unleash instance in `UnleashConfiguration`, following the example given in the [online documentation](https://github.com/Unleash/unleash-client-node).
+1. Cd into `app` and run  `npm install`
+2. Add / install `unleash-client` via npm `npm install unleash-client --save`.
+2. Init up the Unleash instance, following the example given in the [online documentation](https://github.com/Unleash/unleash-client-node).
     * Choose unique `appName` when configuring Unleash!
 3. Create a middleware using the following code snippet:
 
